@@ -1,4 +1,25 @@
-# Python Flask ReplAuth
+# CodeX Mentors made with Python Flask ReplAuth
+
+## About
+
+This is a simple app to help faciliate find a TA with an open schedule
+
+## Contributing
+
+Fork this repository and create a new Repl on Replit. Import from GitHub to get started.
+
+Feel free to get started by adding an Issue. 
+
+If you'd like to fix and issue, comment and wait for a response and get the issue assigned to you. 
+
+Then submit a PR and see if we can accept your work!
+
+
+## Replit DB Info
+
+Read all about Replit DB in the [docs](https://docs.replit.com/cloud-services/storage-and-databases/replit-database)
+
+## Below is info about how to use the ReplAuth
 
 Using the ReplAuth with Flask is super easy! First we create a new Flask app: 
 
