@@ -1,0 +1,38 @@
+<div>
+
+    {% if mentor["availableNow"] %}
+      <button id="clockIn" class="btn btn-danger m-3">
+        Clock Out
+      </button>
+    {% else %}
+      <button id="clockIn" class="btn btn-primary m-3">
+        Clock In
+      </button>
+    {% endif %}
+  </div>
+  <div>
+
+    {% if mentor["roomFull"] %}
+      <button id="roomFull" class="btn btn-danger m-3">
+        Room Full
+      </button>
+    {% else %}
+      <button id="roomFull" class="btn btn-primary m-3">
+        Room not full
+      </button>
+    {% endif %}
+  </div>
+<script>
+    const baseURL = "/";
+    clockIn.onclick = () => {
+      fetch(baseURL + "clock-in").then(()=>{
+        location.reload();
+      });
+    };
+    roomFull.onclick = ()=>{
+      fetch(baseURL + "toggle-full").then(()=>{
+        location.reload();
+      });
+    }
+  </script>
+</div>

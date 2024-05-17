@@ -1,0 +1,40 @@
+
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+    -->
+<style>
+  {% include "mentor-table.css" %}
+
+</style>
+    <div class="container">
+      <div class="content" role="main">
+        <h2 class="title">Mentor Room Availability</h2>
+        <p>Student link: https://mentor-rooms-codex.replit.app/</p>
+        <div>
+
+          <table id="mentors-table" class="table">
+            <tr>
+              <th>
+                Mentor
+              </th>
+              <th>
+                Meet link
+              </th>
+              <th>
+                Mentor Available
+              </th>
+              <th>
+                Room Full
+              </th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      {% include "mentor-table.js" %}
+    </script>
+
