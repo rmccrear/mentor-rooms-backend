@@ -17,9 +17,15 @@
         Room Full
       </button>
     {% else %}
-      <button id="roomFull" class="btn btn-primary m-3">
-        Room not full
-      </button>
+      {% if mentor["availableNow"] %}
+        <button id="roomFull" class="btn btn-primary m-3">
+          Room not full
+        </button>
+      {% else %}
+        <button id="roomFull" class="btn btn-primary m-3" disabled>
+          Room not full
+        </button>
+      {% endif %}
     {% endif %}
   </div>
 <script>
