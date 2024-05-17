@@ -18,6 +18,13 @@ mentor_data = [
     "roomFull": False
   },
   {
+    "username": "RafaelSequeiros",
+    "displayName": "Rafael",
+    "meetLink": "https://meet.google.com/oto-vgwk-dag",
+    "availableNow": False,
+    "roomFull": False
+  },
+  {
     "username": "rolazaraberin",
     "displayName": "Rolazar",
     "meetLink": "https://meet.google.com/nhf-ehvv-fiz",
